@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Lato-Thin';
+    src: url('../assets/font/Lato-Thin.woff') format('woff');
+}
+html, body {
+ height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Wrapper for page content to push down footer */
+#wrapper, #wrap {
+  min-height: 83.5%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 56px;
+  background-color: #EEEEEE;
+}
+
+
+div#footerText{
+    text-align:center;
+    font-family:Lato-Thin;
+    font-weight:bolder;
+    color:#9E9E9E;
+    font-size:12pt;
+}
+
+.navbar-fixed-left {
+  width: 85px;
+  position: absolute;
+  border-radius: 1.5px;
+  height: 100%;
+  color: #e5e5e5 ;
+}
+
+.navbar-fixed-left .navbar-nav > li{
+  float: none;  /* Cancel default li float: left */
+  color:#53565A;
+  width: 85px;
+
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+.hrline {
+  margin-top: 20px;
+  border: 0;
+  border-top: 2px solid #00B2CE ;
+}
+
