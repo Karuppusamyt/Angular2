@@ -1,4 +1,4 @@
-# champion-r-dap-client
+# Angular 2 
 PreRequisite: Node 6.5.0
 
 npm install
